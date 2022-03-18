@@ -1,0 +1,23 @@
+{
+    "name" : "UpworkReviewJobs",
+    "version" : "2.0",
+    "description" : "search for jobs for freelancers",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon":"/image/favicon.png.png",
+        "default_popup": "upwork.html"
+    },
+
+        "content_scripts" :[{
+
+            "matches" : ["<all_urls>"],
+            "js" :["upwork.js"]
+        }],
+
+
+    "icons":{
+       "128": "/image/favicon.png.png"
+    },
+
+    "permissions" :[]
+}

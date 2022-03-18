@@ -1,0 +1,60 @@
+body{
+    height: 300px;
+    width:  300px;
+    background-color: darkred;
+    
+}
+
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+h1{
+    color: white;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+
+}
+
+button:active{
+    color: white;
+    background-color: red;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+a:hover{
+
+    color: white;
+    background-color: red;
+
+}
+
+a:active{
+
+    color: white;
+    background-color: red;
+
+}
+
+
+input{
+    margin-top: 5px;
+}

@@ -1,0 +1,68 @@
+body{
+    height: 300px;
+    width:  300px;
+    background-color: #f54242;
+    
+}
+
+
+
+.location{
+    font-size: 20px;
+}
+
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+
+h1{
+    color: white;
+    display: inline;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: blue;
+
+}
+
+button:active{
+    color: white;
+    background-color: blue;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+a:hover{
+
+    color: white;
+    background-color:blue;
+
+}
+
+a:active{
+
+    color: white;
+    background-color: blue;
+
+}
+
+
+input{
+    margin-top: 5px;
+}
